@@ -1,0 +1,17 @@
+{
+  "name": "@openai/realtime-wavtools",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OpenAI Realtime Wavtools",
+  "main": "index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "mocha ./test/index.js"
+  },
+  "author": "dooy <ydlhero@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
